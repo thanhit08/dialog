@@ -13,7 +13,7 @@ const os = require('os');
 const config =
 {
 	// Listening hostname (just for `gulp live` task).
-	domain : process.env.DOMAIN || 'localhost',
+	domain : process.env.DOMAIN || '157.230.41.69',
 	// Signaling settings (protoo WebSocket server and HTTP API server).
 	https  :
 	{
